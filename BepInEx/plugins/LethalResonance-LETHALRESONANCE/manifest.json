@@ -1,0 +1,11 @@
+{
+    "name": "LETHALRESONANCE",
+    "version_number": "4.7.5",
+    "website_url": "",
+    "description": "OLD BIRD! STREAM FRIENDLY. Immerse in 700+ enhanced audio tweaks and custom sounds for a scarier, deeper experience. Feel sound roll off objects, blending intense bass and subtle reverb for a captivating, immersive experience.",
+    "dependencies": [
+        "Hardy-LCMaxSoundsFix-1.2.0",
+        "loaforc-loaforcsSoundAPI-1.1.7",
+        "ButteryStancakes-EnemySoundFixes-1.5.10"
+    ]
+}
