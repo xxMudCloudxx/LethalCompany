@@ -222,4 +222,284 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\megumin-LethalDevMode\1.0.0\icon.png
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\megumin-LethalDevMode\icon.png
+- manifestVersion: 1
+  name: Evaisa-HookGenPatcher
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/
+  displayName: HookGenPatcher
+  description: Generates MonoMod.RuntimeDetour.HookGen's MMHOOK file during the
+    BepInEx preloader phase.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004940327
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\Evaisa-HookGenPatcher\icon.png
+- manifestVersion: 1
+  name: Evaisa-LethalLib
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/
+  displayName: LethalLib
+  description: Personal modding tools for Lethal Company
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004940895
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 16
+    patch: 1
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\Evaisa-LethalLib\icon.png
+- manifestVersion: 1
+  name: Entity378-SellBodiesFixed
+  authorName: Entity378
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Entity378/SellBodiesFixed/
+  displayName: SellBodiesFixed
+  description: Sell the bodies of dead enemies. This is an updated version of the
+    SellBodies mod
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004941359
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.14.4
+    - Evaisa-HookGenPatcher-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 10
+    patch: 1
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\Entity378-SellBodiesFixed\icon.png
+- manifestVersion: 1
+  name: Bobbie-UniTask
+  authorName: Bobbie
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/
+  displayName: UniTask
+  description: Provides an efficient allocation free async/await integration for Unity.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004946847
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\Bobbie-UniTask\icon.png
+- manifestVersion: 1
+  name: loaforc-loaforcsSoundAPI
+  authorName: loaforc
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/loaforc/loaforcsSoundAPI/
+  displayName: loaforcsSoundAPI
+  description: A soundtool made to give Soundpack creators ultimate control.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004947396
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Bobbie-UniTask-2.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 7
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\loaforc-loaforcsSoundAPI\icon.png
+- manifestVersion: 1
+  name: Hardy-LCMaxSoundsFix
+  authorName: Hardy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix/
+  displayName: LCMaxSoundsFix
+  description: Simple mod that increase max number of simultaneous playing sounds,
+    hopefully fixing missing footsteps and other missing sound problems.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004947893
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\Hardy-LCMaxSoundsFix\icon.png
+- manifestVersion: 1
+  name: ButteryStancakes-EnemySoundFixes
+  authorName: ButteryStancakes
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ButteryStancakes/EnemySoundFixes/
+  displayName: EnemySoundFixes
+  description: Fixes numerous issues with missing sound effects, or SFX playing
+    when they shouldn't.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004948405
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 10
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\ButteryStancakes-EnemySoundFixes\icon.png
+- manifestVersion: 1
+  name: LethalResonance-LETHALRESONANCE
+  authorName: LethalResonance
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/LethalResonance/LETHALRESONANCE/
+  displayName: LETHALRESONANCE
+  description: OLD BIRD! STREAM FRIENDLY. Immerse in 700+ enhanced audio tweaks
+    and custom sounds for a scarier, deeper experience. Feel sound roll off
+    objects, blending intense bass and subtle reverb for a captivating,
+    immersive experience.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004949086
+  loaders: []
+  dependencies:
+    - Hardy-LCMaxSoundsFix-1.2.0
+    - loaforc-loaforcsSoundAPI-1.1.7
+    - ButteryStancakes-EnemySoundFixes-1.5.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 7
+    patch: 5
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\LethalResonance-LETHALRESONANCE\icon.png
+- manifestVersion: 1
+  name: tinyhoot-ShipLoot
+  authorName: tinyhoot
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/
+  displayName: ShipLoot
+  description: Reliably shows the total value of all scrap in your ship.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004971237
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\tinyhoot-ShipLoot\icon.png
+- manifestVersion: 1
+  name: MegaPiggy-BuyableShotgunShells
+  authorName: MegaPiggy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MegaPiggy/BuyableShotgunShells/
+  displayName: BuyableShotgunShells
+  description: Adds shotgun shells to the store for 20 credits (Configurable)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730004999681
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.13.2
+    - Evaisa-HookGenPatcher-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\MegaPiggy-BuyableShotgunShells\icon.png
+- manifestVersion: 1
+  name: RickArg-Helmet_Cameras
+  authorName: RickArg
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/
+  displayName: Helmet_Cameras
+  description: For monitoring first person cameras on player's helmets. For best
+    "Camera Man" experience.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730005013582
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 5
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\RickArg-Helmet_Cameras\icon.png
+- manifestVersion: 1
+  name: x753-Mimics
+  authorName: x753
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/x753/Mimics/
+  displayName: Mimics
+  description: Adds a dangerous new monster to the game. Can you figure out what's
+    real or will you be devoured?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1730005019966
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 6
+    patch: 4
+  enabled: true
+  icon: C:\Users\27956\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\x753-Mimics\2.6.4\icon.png
